@@ -10,15 +10,15 @@
 
 > TARGETS->Build Settings（搜索mach-o）->Mach-O Type
 
-![avatar](./Image/p2.png)
+![avatar](https://github.com/lx-xi/PlugInDemo/blob/master/Image/p2.png)
 
 ### 2、代码编写
 
-![avatar](./Image/p3.png)
+![avatar](https://github.com/lx-xi/PlugInDemo/blob/master/Image/p3.png)
 
 本例创建动态库的名字为GCore，项目会自动生成一个名为GCore.h的头文件
 
-![avatar](./Image/p4.png)
+![avatar](https://github.com/lx-xi/PlugInDemo/blob/master/Image/p4.png)
 
 其中可导入你想用的头文件。
 UI文件夹下为demo实现的简单页面，大家可自定义自己的UI界面或功能。代码写完后，可在路径**TARGETS->Build Phases->Headers**下将你需要暴露给外面调用的头文件添加到**Public**下面即可
