@@ -2,7 +2,7 @@
 
 ### 1、动态库制作
 
-![avatar](./Image/p1.png)
+![avatar](https://github.com/lx-xi/PlugInDemo/blob/master/Image/p1.png)
 
 选择**Framework**，创建动态库。
 
@@ -104,7 +104,7 @@ UI文件夹下为demo实现的简单页面，大家可自定义自己的UI界面
    }
    ```
 
-2. 使用**[NSBundle bundleWithPath:frameworkPath]**将之前下载好的动态库加载到内存
+2. 使用 **[NSBundle bundleWithPath:frameworkPath]** 将之前下载好的动态库加载到内存
 
    ```
    //使用NSBundle实现加载
@@ -165,9 +165,9 @@ UI文件夹下为demo实现的简单页面，大家可自定义自己的UI界面
    sudo apachectl start
    ```
 
-   启动后在浏览器访问[http://localhost](http://localhost/) 就可以看到效果
+   启动后在浏览器访问 http://localhost 就可以看到效果
 
-2. apache服务默认目录在**/Library/WebServer/Documents**，只需要将动态库放入该目录并访问对应URL即可实现下载。比如本demo就是将动态库和bundle资源文件压缩成GCore.zip放入该目录下面，只需浏览器访问*http://localhost/GCore.zip*即可下载，如果使用真机测试，在同一网络下面，可将localhost缓存Mac的网路IP地址即可。
+2. apache服务默认目录在 **/Library/WebServer/Documents** ，只需要将动态库放入该目录并访问对应URL即可实现下载。比如本demo就是将动态库和bundle资源文件压缩成GCore.zip放入该目录下面，只需浏览器访问 **http://localhost/GCore.zip** 即可下载，如果使用真机测试，在同一网络下面，可将localhost缓存Mac的网路IP地址即可。
 
 3. apache其他命令
 
